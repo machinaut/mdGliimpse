@@ -3,10 +3,10 @@
 
 
 /* TEAM */
-  <your title>: <your name>
-  Site:
-  Twitter:
-  Location:
+  Coder: Alex Ray
+  Site: machinaut.com
+  Twitter: @machinaut
+  Location: 
 
 /* THANKS */
   Names (& URL):

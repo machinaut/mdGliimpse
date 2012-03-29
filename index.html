@@ -99,6 +99,18 @@
 	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
 	s.parentNode.insertBefore(g,s)}(document,'script'));
 </script>
+<script>
+  $(".btn-primary").click(function(){
+      $("h1").data('font-size', $("h1").css('font-size'))
+      $("h1").animate({
+        'font-size': '17px'
+      }, 1500 );
+      var fontsize = $("h1").data('font-size');
+      $("h1").animate({
+        'font-size': $("h1").data('font-size')
+      }, 1500).removeData('font-size');
+  });
+</script>
 
 </body>
 </html>
